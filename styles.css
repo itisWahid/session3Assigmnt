@@ -1,0 +1,48 @@
+body {
+  background-color: #121212;
+  color: rgb(168, 168, 168);
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 5%;
+}
+.tab-bar {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #555555;
+  margin-bottom: 20px;
+}
+.tab-bar-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: larger;
+  margin: 0;
+}
+#classic-tab {
+  color: rgb(168, 168, 168);
+  font-weight: bold;
+}
+.tab-content {
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.tab-image {
+  height: 300px;
+}
+.image-part {
+  display: inline;
+  width: 50%;
+}
+.text-part {
+  display: inline;
+  background-color: red;
+  width: 50%;
+}
+#impressionism {
+  display: none;
+}
+#modern {
+  display: none;
+}
